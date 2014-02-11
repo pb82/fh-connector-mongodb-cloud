@@ -1,0 +1,27 @@
+{
+    "name": "MongoDB",
+    "type": "cloud_nodejs",
+    "repoUrl": "https://github.com/feedhenry/fh-connector-mongodb-cloud.git",
+    "repoBranch": "refs/heads/master",
+    "image": "public/img/cloud_plugins/mongodb.png",
+    "category": "Remote Database",
+    "configuration": [
+        {
+            "desc": "MongoDB Username",
+            "varName": "MONGODB_USER"
+        },
+        {
+            "desc": "MongoDB Password",
+            "varName": "MONGODB_PASSWORD",
+            "field": "password"
+        },
+        {
+            "desc": "MongoDB Hostname",
+            "varName": "MONGODB_HOST"
+        },
+        {
+            "desc": "MongoDB Database Name",
+            "varName": "MONGODB_DATABASE"
+        }
+    ]
+}
