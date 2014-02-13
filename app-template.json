@@ -1,4 +1,5 @@
 {
+    "id": "mongodb-cloud",
     "name": "MongoDB",
     "type": "cloud_nodejs",
     "docs": "https://raw2.github.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
